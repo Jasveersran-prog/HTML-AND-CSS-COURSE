@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+/* HERO SECTION */
+
+.hero {
+    background-image:
+        linear-gradient(
+            rgba(0, 0, 0, 0.65),
+            rgba(0, 0, 0, 0.65)
+        ),
+        url("../images/cinema.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+    min-height: 500px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* HERO TEXT */
+
+.hero h1 {
+    font-size: 50px;
+}
+
+
+/* MOVIE IMAGES */
+
+.card-img-top {
+    height: 300px;
+    object-fit: cover;
+}
+
+
+/* CARD HOVER */
+
+.card {
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+}
+
+
+/* ABOUT IMAGE */
+
+#about img {
+    width: 100%;
+}
+
+
+/* FOOTER */
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
